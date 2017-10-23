@@ -9,10 +9,16 @@ The data sanitizer class is designed to read user data of web-impressions and pr
 
 ## Execute the script
 
-Designed to run with Python 3 using standard Python libraries.
+Designed to run with Python 3 using standard libraries.
 ```
 eg.
 $ python3 main.py ./impressions.tsv
+
+>> The sanitized and normalized version of the impressions data can be found:
+** ~/Workspace/web_data_sanitiztion_exercise/normalized_cleansed_data/20171023_021922_normalized.csv **
+
+>> The missing/invalid data from the impressions source file can be found:
+** ~/Workspace/web_data_sanitiztion_exercise/missing_invalid_data/20171023_021922_invalid.csv **
 ```
 Usage:
 ```
